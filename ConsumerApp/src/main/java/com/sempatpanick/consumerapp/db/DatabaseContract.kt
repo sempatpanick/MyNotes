@@ -1,4 +1,4 @@
-package com.sempatpanick.mynotesapp.db
+package com.sempatpanick.consumerapp.db
 
 import android.net.Uri
 import android.provider.BaseColumns

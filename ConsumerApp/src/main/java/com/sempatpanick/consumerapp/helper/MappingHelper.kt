@@ -1,8 +1,8 @@
-package com.sempatpanick.mynotesapp.helper
+package com.sempatpanick.consumerapp.helper
 
 import android.database.Cursor
-import com.sempatpanick.mynotesapp.db.DatabaseContract
-import com.sempatpanick.mynotesapp.entity.Note
+import com.sempatpanick.consumerapp.db.DatabaseContract
+import com.sempatpanick.consumerapp.entity.Note
 
 object MappingHelper {
     fun mapCursorToArrayList(notesCursor: Cursor?): ArrayList<Note> {

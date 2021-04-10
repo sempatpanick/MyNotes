@@ -1,4 +1,4 @@
-package com.sempatpanick.mynotesapp
+package com.sempatpanick.consumerapp
 
 import android.content.ContentValues
 import android.content.Intent
@@ -10,13 +10,13 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import com.sempatpanick.mynotesapp.databinding.ActivityNoteAddUpdateBinding
-import com.sempatpanick.mynotesapp.db.DatabaseContract.NoteColumns.Companion.CONTENT_URI
-import com.sempatpanick.mynotesapp.db.DatabaseContract.NoteColumns.Companion.DATE
-import com.sempatpanick.mynotesapp.db.DatabaseContract.NoteColumns.Companion.DESCRIPTION
-import com.sempatpanick.mynotesapp.db.DatabaseContract.NoteColumns.Companion.TITLE
-import com.sempatpanick.mynotesapp.entity.Note
-import com.sempatpanick.mynotesapp.helper.MappingHelper
+import com.sempatpanick.consumerapp.databinding.ActivityNoteAddUpdateBinding
+import com.sempatpanick.consumerapp.db.DatabaseContract.NoteColumns.Companion.CONTENT_URI
+import com.sempatpanick.consumerapp.db.DatabaseContract.NoteColumns.Companion.DATE
+import com.sempatpanick.consumerapp.db.DatabaseContract.NoteColumns.Companion.DESCRIPTION
+import com.sempatpanick.consumerapp.db.DatabaseContract.NoteColumns.Companion.TITLE
+import com.sempatpanick.consumerapp.entity.Note
+import com.sempatpanick.consumerapp.helper.MappingHelper
 import java.text.SimpleDateFormat
 import java.util.*
 
